@@ -26,7 +26,7 @@ I deployed the compressed model on HuggingFace Spaces using a Gradio App. The im
 <img src = "images/huggingface.png" width="900" height="400">  
 
 ## Web Deployment
-In addition to the Gradio App deployment on HuggingFace Spaces, I also created a Flask web application using the space api.This Flask web app takes a movie description as input and predicts the most suitable multilabel genre based on the given description. You can find the relevant code in the 'Flask' branch. The web application is now live and can be accessed[here](https://multilabel-tv-series-classifier-drg6.onrender.com/).The resources related to Web Deployment is avalable in `Server`
+In addition to the Gradio App deployment on HuggingFace Spaces, I also created a Flask web application using the space api.This Flask web app takes a movie description as input and predicts the most suitable multilabel genre based on the given description. You can find the relevant code in the `Flask` branch. The web application is now live and can be accessed[here](https://multilabel-tv-series-classifier-drg6.onrender.com/).The resources related to Web Deployment is avalable in `Server`
 
 <table>
   <tr>

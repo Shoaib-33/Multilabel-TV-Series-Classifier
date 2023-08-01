@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("../static/image2.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 40px;
+            height: 100px;
+            color: #f9f9f9;
+            background-color: rgba(51, 51, 51, 0.8);
+            border-bottom: 2px solid #f9f9f9;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 80vh;
+            font-size: 25px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            padding: 30px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #text {
+            height: 120px;
+            width: 600px;
+            font-size: 20px;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        .input-label {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .input-text {
+            font-size: 18px;
+            color: #444;
+            white-space: pre-wrap;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .output-label {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        .output-text {
+            font-size: 18px;
+            color: #444;
+            white-space: pre-wrap;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        /* Add some visual enhancements */
+        .container {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .center:before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+            border-radius: 20px;
+        }
+
+        .center:after {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            right: 10px;
+            bottom: 10px;
+            background-color: rgba(255, 255, 255, 0.5);
+            z-index: -1;
+            border-radius: 20px;
+        }
+
+        input[type="submit"] {
+            font-size: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <div class="head"><b>Multilabel TV Series Classifier</b></div>
+</head>
+
+<body>
+    <div class="center">
+        <div class="container">
+            <div class="input-label">Input Text</div>
+            <div class="input-text" id="text" name="text" readonly>{{ input_text }}</div>
+            <div class="output-label">Genres</div>
+            <div class="output-text">{{ output_text }}</div>
+        </div>
+    </div>
+</body>
+
+</html>

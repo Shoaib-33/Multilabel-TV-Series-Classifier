@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: "Montserrat", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("../static/image1.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .head {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 40px;
+            height: 100px;
+            color: #f9f9f9;
+            background-color: rgba(0, 0, 0, 0.5);
+            border-bottom: 2px solid #f9f9f9;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 25px;
+        }
+
+        form {
+            height: 500px;
+            width: 600px;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        #text {
+            height: 100px;
+            width: 400px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        textarea {
+            height: 300px;
+            width: 400px;
+            font-size: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            resize: none;
+        }
+
+        input[type="submit"] {
+            font-size: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <div class="head"><b>Multilabel Tv Series Classifier</b></div>
+</head>
+
+<body>
+    <div class="center">
+        <form action="/" method="post">
+            <label for="text"><b>Enter Description</b></label><br>
+            <textarea id="text" name="text" placeholder="Enter the TV series description..."></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+
+</html>

@@ -21,7 +21,7 @@ The trained model has a memory of 300+MB. I compressed this model using ONNX qua
 
 ## Model Deployment
 
-I deployed the compressed model on HuggingFace Spaces using a Gradio App. The implementation is available in the deployment folder. You can explore the live demo by visiting[here](https://huggingface.co/spaces/Shoaib-33/Mutilabel-Tv-Series-Classifier). The deployment notebooks and app are available in `Deployment`
+I deployed the compressed model on HuggingFace Spaces using a Gradio App. The implementation is available in the deployment folder. You can explore the live demo by visiting [here](https://huggingface.co/spaces/Shoaib-33/Mutilabel-Tv-Series-Classifier). The deployment notebooks and app are available in `Deployment`
 
 <img src = "images/huggingface.png" width="900" height="400">  
 

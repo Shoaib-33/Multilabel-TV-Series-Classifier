@@ -5,9 +5,9 @@ It can classify upto 28  different genres of TV Series and can predict genres ba
 
 ## Data
 
-I scraped movie data from [IMDb](https://www.imdb.com/search/title/?title_type=tv_series) using Selenium, collecting almost 25000 descriptions having 28 genres. Then preprocessing and encoding was done on the scraped data 
+I scraped movie data from [IMDb](https://www.imdb.com/search/title/?title_type=tv_series) website using Selenium, collecting almost 25000 descriptions having 28 genres. Then preprocessing and encoding was done on the scraped data 
 
-**Dataset: [Here](https://github.com/Shoaib-33/Multilabel-TV-Series-Classifier/tree/main/Data)**
+**Dataset is avalable here : [Here](https://github.com/Shoaib-33/Multilabel-TV-Series-Classifier/tree/main/Data)**
 
 
 ## Model

@@ -2,6 +2,7 @@
 
 This project is all about text classification which classifies genres of TV series based on the short description of the plot.
 It can classify upto 28  different genres of TV Series and can predict genres based on a short description of the TV series plot.
+The keys of `deployment\genre_types_encoded.json` shows the TV Series genres.
 
 ## Data
 

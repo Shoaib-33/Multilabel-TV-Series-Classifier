@@ -6,7 +6,7 @@ The keys of `deployment\genre_types_encoded.json` shows the TV Series genres.
 
 ## Data
 
-I scraped movie data from [IMDb](https://www.imdb.com/search/title/?title_type=tv_series) website using Selenium, collecting almost 25000 descriptions having 28 genres. Then preprocessing and encoding was done on the scraped data .The scrapping notebook is available in `Scrapper/tv_series_scrap.py`
+Srapping TV series data was done from [IMDb](https://www.imdb.com/search/title/?title_type=tv_series) website using Selenium, collecting almost 25000 descriptions having 28 genres. Then preprocessing and encoding was done on the scraped data .The scrapping notebook is available in `Scrapper/tv_series_scrap.py`
 
 **Dataset is avalable [here](https://github.com/Shoaib-33/Multilabel-TV-Series-Classifier/tree/main/Data)**.It is also available in `Data/Tv_Series_Data.csv`
 
